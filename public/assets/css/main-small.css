@@ -1,0 +1,46 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+}
+
+.nav, .justify-content-center {
+    background-color: #fe7a13;
+}
+
+.nav-link {
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.jumbotron {
+    background-color: whitesmoke;
+}
+
+#logo {
+    height: 80%;
+    width: 80%;
+}
+
+.display-4 {
+    font-size: 3rem;
+}
+
+.professional-bio-title {
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+#professional-bio-text {
+    padding: 0 1rem;
+}
+
+.page-footer {
+    padding: 2rem 4rem;
+    margin-top: 2rem;
+    background-color: #fe7a13;
+    color: whitesmoke;
+}
+
+.footer-link {
+    color: whitesmoke;
+}
