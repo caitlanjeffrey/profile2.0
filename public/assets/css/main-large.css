@@ -1,61 +1,154 @@
+/* Main App Colors */
+    /* Orange (#fe7a13) */
+    /* Gold (#fdbe01) */
+    /* Text (whitesmoke)*/
+    /* Text (black)*/
+    /* Text (Sienna #804b38) */
+
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: black;
 }
 
-.nav, .justify-content-center {
-    background-color: #fe7a13;
-}
+/* Navigation */
+    .nav, .justify-content-center {
+        background-color: #fe7a13;
+    }
 
-.nav-link {
-    color: whitesmoke;
-    font-size: 24px;
-}
+    .nav-link {
+        color: whitesmoke;
+        font-size: 24px;
+    }
 
-.jumbotron {
-    background-color: whitesmoke;
-}
+/* Jumbotron */
+    .jumbotron {
+        background-image: url("../images/concrete.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 848px;
+    }
 
-#logo {
-    height: 40%;
-    width: 40%;
-}
+    .welcome-text {
+        font-size: 30px;
+        color: whitesmoke;
+        font-weight: bold;
+        text-align: right;
+    }
 
-.display-4 {
-    font-size: 4rem;
-}
+    .name {
+        margin-top: -480px;
+        font-size: 53px;
+    }
 
-h2 {
-    font-weight: 1000;
-}
+    h2 {
+        font-weight: 1000;
+    }
 
-.professional-bio-title {
-    font-weight: 1000;
-    margin-bottom: 1rem;
-    padding-left: 0.5rem;
-}
+/* Professional Bio */
+    .professional-bio-title {
+        color: #804b38;
+        font-size: 20px;
+        text-align: right;
+        font-weight: 1000;
+        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        text-align: right;
+    }
 
-#professional-bio-text{
-    padding: 0 0.5rem;
-}
+    .latest-work-title, .skills-title {
+        color: #804b38;
+        font-size: 20px;
+        text-align: right;
+        font-weight: 1000;
+        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        text-align: left;
+    }
+
+    #professional-bio-text{
+        padding: 0 0.5rem;
+    }
 
 .card {
     margin-top: 2rem;
 }
 
-.card-header {
-    font-weight: 800;
-    background-color: #fe7a13;
-    color: whitesmoke;
+.card-body-achievements {
+    background-color: whitesmoke;
 }
+
+.card-header-achievements {
+    font-weight: 800;
+    background-color: #fdbe01;
+    color: whitesmoke;
+    text-align: center;
+}
+
+h3 {
+    color: #804b38;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin: 0;
+}
+
+.achievement-header-subtext {
+    color: black;
+    /* font-weight: ; */
+    font-size: 20px;
+    text-align: center;
+}
+
+.achievement-description {
+    color: black;
+    /* font-weight: ; */
+    font-size: 16px;
+    text-align: center;
+}
+
+.latest-work-title, .skills {
+    margin-top: 3rem;
+}
+
+.card-body-skills {
+    background-image: url("../images/butterfly-migration\ 2.jpeg");
+    opacity: 50%
+}
+
+#my-skills {
+    background: transparent;
+}
+
+.skills {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skills-header {
+    text-align: left;
+    font-size: 20px;
+}
+
+.progress {
+    margin-top: 10px;
+    height:3px;
+}
+
+.progress-bar {
+    height: 3px;
+}
+
 
 .page-footer {
     padding: 2rem 4rem;
-    margin-top: 2rem;
-    background-color: #fe7a13;
+    /* margin-top: 2rem; */
+    background-color: #343634;
     color: whitesmoke;
 }
 
 .footer-link {
     color: whitesmoke;
 }
+/* 
+https://kimmobrunfeldt.github.io/progressbar.js/ */
