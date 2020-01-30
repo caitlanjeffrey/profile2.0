@@ -50,6 +50,34 @@
 
   {{!-- Footer --}}
   <footer class="page-footer">
+    <div class="contact-me-part-2">
+      <div class="contact-form">
+        <form onchange="mail(this)">
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="inputUserName">Your Name</label>
+              <input type="text" class="form-control" id="userName" placeholder="Your Name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputEmail">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="email@gmail.com">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="emailSubject">Subject</label>
+            <input type="text" class="form-control" id="emailSubject" placeholder="Subject">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea class="form-control" aria-label="With textarea" id="message"></textarea>
+          </div>
+          <button class="btn btn-primary" id="send-email-btn">Send Email</button>
+        </form>
+      </div>
+    </div>
+
+    <hr class="my-4">
+
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-6">
@@ -77,6 +105,7 @@
         </div>
       </div>
     </div>
+    
     <div class="footer-copyright">
       <div class="container">
         © 2020 Copyright
