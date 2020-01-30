@@ -1,8 +1,15 @@
 {
   "name": "profile2.0",
   "version": "1.0.0",
-  "description": "profile website",
+  "description": "Second profile, but better!",
   "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mysql2": "^2.1.0",
+    "sequelize": "^5.21.3"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
@@ -11,24 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/caitlanjeffrey/profile2.0.git"
   },
-  "author": "Caitlan Jeffrey",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/caitlanjeffrey/profile2.0/issues"
   },
-  "homepage": "https://github.com/caitlanjeffrey/profile2.0#readme",
-  "dependencies": {
-    "cookie-parser": "^1.4.4",
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "express-handlebars": "^3.1.0",
-    "jsonwebtoken": "^8.5.1",
-    "mysql2": "^2.1.0",
-    "path": "^0.12.7",
-    "progressbar.js": "^1.1.0",
-    "sequelize": "^5.21.3"
-  },
-  "devDependencies": {
-    "handlebars": "^4.5.0"
-  }
+  "homepage": "https://github.com/caitlanjeffrey/profile2.0#readme"
 }

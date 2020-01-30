@@ -1,109 +1,26 @@
-// REQUIRED
 
-// for keys/id/secrets
-require("dotenv").config();
-let render = require("express-handlebars")
-let keys = require("../config/keys");
-var db = require("../models");
-let petfinder = require("@petfinder/petfinder-js");
-let user = require("./apiRoutes")
-let Cookies = require("js-cookie")
+// *********************************************************************************
+// html-routes.js - this file offers a set of routes for sending users to the various html pages
+// *********************************************************************************
 
+// Dependencies
+// =============================================================
+var path = require("path");
 
-var ProgressBar = require('progressbar.js');
-
-const bcrypt = require("bcryptjs");
-const jwt = require("jsonwebtoken");
-
-let client = new petfinder.Client({
-    apiKey: keys.id,
-    secret: keys.secret
-});
-
+// Routes
+// =============================================================
 module.exports = function (app) {
-    // Load index page
+
+    // Each of the below routes just handles the HTML page that the user gets sent to.
+
+    // index route loads view.html
     app.get("/", function (req, res) {
-        res.render("index", {
-            userLoggedIn: req.user
-        });
+        res.render('index', { layout: 'main', template: 'index' })
     });
 
-    app.get("/adopt/:animal/:location/:distance/:petnum", function (req, res) {
-        client.animal
-            .search({
-                location: req.params.location,
-                type: req.params.animal,
-                status: "adoptable",
-                distance: req.params.distance,
-                limit: 100
-            })
-            .then(resp => {
-                var petArr = [];
-                function createPetArray() {
-                    petArr.push(resp.data.animals);
-                    console.log("PET ARRAY BELOW")
-                }
-
-                createPetArray();
-
-                res.render("pets", {
-                    pet: petArr[0][req.params.petnum || 0],
-                    petDesc: petArr[0][req.params.petnum || 0].description,
-                    petnum: req.params.petnum || 0
-                });
-            })
-            .catch(err => {
-                console.log(err);
-            });
+    // cms route loads cms.html
+    app.get("/index", function (req, res) {
+        res.render('index', { layout: 'main', template: 'index' })
     });
 
-    app.get("/post", function (req, res) {
-        res.render("post", {});
-    });
-
-    app.get("/signup", function (req, res) {
-        res.render("signup", {});
-    });
-
-    app.get("/account", function (req, res) {
-
-        var userName;
-        var userPhoto;
-
-        db.User.findOne({
-            where: {
-                id: req.user
-            }
-        }).then(function (result) {
-            userName = result.firstName
-            userPhoto = result.photoURL
-            console.log(userPhoto);
-            console.log(userName)
-        });
-
-        if (req.user) {
-            db.SavedPets.findAll({
-                where: {
-                    UserId: req.user
-                }
-            }).then(function (result) {
-                res.render("account", {
-                    userLoggedIn: req.user,
-                    SavedPets: result,
-                    userName: userName,
-                    userPhoto: userPhoto
-                });
-            });
-        } else {
-            res.render("account", {
-                userLoggedIn: req.user,
-            });
-        }
-
-    });
-
-    // Render 404 page for any unmatched routes
-    app.get("*", function (req, res) {
-        res.render("404");
-    });
 };
