@@ -23,7 +23,7 @@ body {
     }
 
     #logo {
-        margin-top: 150px;
+        margin-top: 130px;
         height: 50%;
     }
 
@@ -31,13 +31,13 @@ body {
         font-size: 20px;
         color: whitesmoke;
         font-weight: bold;
-        text-align: center;
+        text-align: right;
     }
 
     .name {
         /* margin-top: -480px; */
-        font-size: 40px;
-        text-align: center;
+        font-size: 36px;
+        text-align: right;
     }
 
 /* Professional Bio */
@@ -66,9 +66,13 @@ body {
 
 .card-header-achievements {
     font-weight: 800;
-    background-color: #fe7a13;
+    background-color: #fdbe01;
     color: whitesmoke;
     text-align: center;
+}
+
+.card-img-bottom {
+    height: 40%;
 }
 
 h3 {
@@ -93,12 +97,36 @@ h3 {
     text-align: center;
 }
 
+#more-projects-btn {
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: center;
+    background-color: #804b38;
+    border-color: #804b38;
+}
+
+#send-me-an-email {
+    margin-bottom: 1rem;
+    display: flex;
+    text-align: center;
+    background-color: #804b38;
+    border-color: #804b38;
+}
+
+/* Skills */
 .latest-work-title {
-    margin-top: 3rem;
+    margin-top: 2rem;
+    clear: right;
+}
+
+.skills {
+    clear: right;
+    margin-top: 1rem;
 }
 
 .card-body-skills {
-    background-image: url("../images/butterfly-migration\ 2.jpeg");
+    background-image: url("/images/butterfly-migration\ 2.jpeg");
+
     opacity: 50%
 }
 
@@ -106,15 +134,37 @@ h3 {
     background: transparent;
 }
 
+.skills {
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.skills-header {
+    text-align: left;
+    font-size: 20px;
+}
+
+.progress {
+    margin-top: 10px;
+    height:3px;
+}
+
+.progress-bar {
+    height: 3px;
+}
+
+
 .page-footer {
+    background-image: url("/assets/images/concrete.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2rem 4rem;
-    margin-top: 2rem;
-    background-color: #343634;
-    color: whitesmoke;
+    color: black;
 }
 
 .footer-link {
-    color: whitesmoke;
+    color: black;
 }
 /* 
 https://kimmobrunfeldt.github.io/progressbar.js/ */

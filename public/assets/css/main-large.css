@@ -2,12 +2,13 @@
     /* Orange (#fe7a13) */
     /* Gold (#fdbe01) */
     /* Text (whitesmoke)*/
-    /* Text (black)*/
-    /* Text (Sienna #804b38) */
+    /* Text (#110c06)*/
+    /* Text (Sienna 
+#43160c) */
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: black;
+    color: #110c06;
 }
 
 /* Navigation */
@@ -46,7 +47,7 @@ body {
 
 /* Professional Bio */
     .professional-bio-title {
-        color: #804b38;
+        color: #43160c;
         font-size: 20px;
         text-align: right;
         font-weight: 1000;
@@ -56,7 +57,7 @@ body {
     }
 
     .latest-work-title, .skills-title {
-        color: #804b38;
+        color: #43160c;
         font-size: 20px;
         text-align: right;
         font-weight: 1000;
@@ -68,6 +69,14 @@ body {
     #professional-bio-text{
         padding: 0 0.5rem;
     }
+
+
+    #profile-picture {
+        height: 70%;
+        border-radius: 30%;
+        padding: 1rem;
+    }
+
 
 .card {
     margin-top: 2rem;
@@ -84,34 +93,86 @@ body {
     text-align: center;
 }
 
-h3 {
-    color: #804b38;
+.card-header-history {
+    font-weight: 800;
+    background-color: #43160c;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.achievement-header {
+    color: #43160c;
     font-weight: 900;
     font-size: 36px;
     text-align: center;
     margin: 0;
 }
 
+.history-header {
+    color: #fe7a13;
+    font-weight: 900;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+
 .achievement-header-subtext {
-    color: black;
-    /* font-weight: ; */
+    color: #110c06;
     font-size: 20px;
     text-align: center;
 }
 
 .achievement-description {
-    color: black;
-    /* font-weight: ; */
+    color: #110c06;
     font-size: 16px;
     text-align: center;
 }
 
-.latest-work-title, .skills {
-    margin-top: 3rem;
+#more-projects-btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    float: right;
+    text-align: center;
+    background-color: #43160c;
+    border-color: #43160c;
+}
+
+#send-email-btn {
+    margin-top: 1rem;
+    background-color: #110c06;
+    border-color: #110c06;
+}
+
+.contact-me-title, .contact-me-title-bottom {
+    color: #43160c;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.contact-me-title-bottom {
+    margin-bottom: 2rem;
+}
+
+/* Skills */
+.latest-work-title {
+    margin-top: 2rem;
+    clear: right;
+}
+
+.skills {
+    clear: right;
+    margin-top: 1rem;
 }
 
 .card-body-skills {
-    background-image: url("../images/butterfly-migration\ 2.jpeg");
+    background-image: url("/images/butterfly-migration\ 2.jpeg");
+
     opacity: 50%
 }
 
@@ -123,6 +184,7 @@ h3 {
     background-color: whitesmoke;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    height: 400px;
 }
 
 .skills-header {
@@ -139,16 +201,22 @@ h3 {
     height: 3px;
 }
 
+.contact-form {
+    background-color: darkgrey;
+    color: whitesmoke;
+    padding: 2rem;
+}
 
 .page-footer {
+    background-image: url("/assets/images/concrete.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     padding: 2rem 4rem;
-    /* margin-top: 2rem; */
-    background-color: #804b38;
-    color: whitesmoke;
+    color: #110c06;
 }
 
 .footer-link {
-    color: whitesmoke;
+    color: #110c06;
 }
 /* 
 https://kimmobrunfeldt.github.io/progressbar.js/ */

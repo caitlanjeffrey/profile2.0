@@ -17,39 +17,38 @@
 
   <!-- Local CSS -->
   <!-- <link rel="stylesheet" href="./main.css"> -->
-  <link rel="stylesheet" media="screen and (max-width: 600px)" href="/public/assets/css/main-small.css">
-  <link rel="stylesheet" media="screen and (min-width: 601px" href="/public/assets/css/main-large.css">
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="/assets/css/main-small.css">
+  <link rel="stylesheet" media="screen and (min-width: 601px" href="/assets/css/main-large.css">
 
 </head>
 
 <body>
   <!-- Navigation -->
-  <div class="navigation">
+  <div class="navigation sticky-top">
     <ul class="nav justify-content-center">
       <li class="nav-item">
-        <a class="nav-link" href="#">About</a>
+        <a class="nav-link" href="/">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Gallery</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Projects</a>
+        <a class="nav-link" href="/projects">Projects</a>
       </li>
     </ul>
   </div>
 
   <!-- Jumbotron -->
-  <div class="jumbotron jumbotron-fluid">
-    <img id="logo" src="/public/assets/images/Flying-Butterflies-PNG-Transparent-Image.png">
+  <div class="jumbotron jumbotron-fluid shadow-lg p-3 mb-5 bg-white rounded">
+    <img id="logo" src="/assets/images/Flying-Butterflies-PNG-Transparent-Image.png">
 
     <div class="container">
       <h1 class="welcome-text name">CAITLAN JEFFREY</h1>
       <h1 class="welcome-text">FULL STACK WEB DEVELOPER</h1>
+      <h1 class="welcome-text">PROJECT MANAGER</h1>
     </div>
   </div>
 
   {{{body}}}
 
+  {{!-- Footer --}}
   <footer class="page-footer">
     <div class="container">
       <div class="row">
@@ -97,7 +96,7 @@
     crossorigin="anonymous"></script>
 
   <!-- Local JavaScript -->
-  <script src="../javascript/progressbar.js"></script>
+  <script src="/assets/javascript/index.js"></script>
 
 </body>
 

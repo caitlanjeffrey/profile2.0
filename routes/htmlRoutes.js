@@ -23,4 +23,7 @@ module.exports = function (app) {
         res.render('index', { layout: 'main', template: 'index' })
     });
 
+    app.get("/projects", function (req, res) {
+        res.render('projects', { layout: 'main', template: 'projects' })
+    });
 };
