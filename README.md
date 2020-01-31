@@ -1,5 +1,5 @@
 <!-- Image -->
-![Butterfly](/public/assets/images/Flying-Butterflies-PNG-Transparent-Image.png)
+![Butterfly](/public/assets/images/butterfly2.png)
 
 ""
 # Professional Portfolio
