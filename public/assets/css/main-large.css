@@ -3,8 +3,7 @@
     /* Gold (#fdbe01) */
     /* Text (whitesmoke)*/
     /* Text (#110c06)*/
-    /* Text (Sienna 
-#43160c) */
+    /* Text (Sienna #43160c) */
 
 body {
     font-family: 'Open Sans', sans-serif;
@@ -69,7 +68,6 @@ body {
     #professional-bio-text{
         padding: 0 0.5rem;
     }
-
 
     #profile-picture {
         height: 70%;
@@ -141,103 +139,97 @@ body {
     border-color: #43160c;
 }
 
-#send-email-btn {
+/* Skills */
+    .latest-work-title {
+        margin-top: 2rem;
+        clear: right;
+    }
+
+    .skills {
+        clear: right;
+        margin-top: 1rem;
+    }
+
+    .card-body-skills {
+        background-image: url("/images/butterfly-migration\ 2.jpeg");
+
+        opacity: 50%
+    }
+
+    #my-skills {
+        background: transparent;
+    }
+
+    .skills {
+        background-color: whitesmoke;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        height: 400px;
+    }
+
+    .skills-header {
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .progress {
+        margin-top: 10px;
+        height:3px;
+    }
+
+    .progress-bar {
+        height: 3px;
+}
+
+/* Project Page */
+    .card-deck-last {
+        margin-bottom: 3rem;
+    }
+
+    .card-footer {
+        background-color: #fdbe01;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    #repository-link {
+        color: whitesmoke
+    }
+
+    #repository-link:hover {
+        color: whitesmoke;
+        font-size: 16px;
+        font-weight: bold;
+        text-decoration: none;
+    }
+
+/* Footer */
+    #send-email-btn {
     margin-top: 1rem;
     background-color: #110c06;
     border-color: #110c06;
-}
+    }
 
-.contact-me-title, .contact-me-title-bottom {
-    color: #43160c;
-    font-weight: 900;
-    font-size: 36px;
-    text-align: center;
-    margin-top: 2rem;
-}
+    .contact-me-title, .contact-me-title-bottom {
+        color: #43160c;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 2rem;
+    }
 
-.contact-me-title-bottom {
-    margin-bottom: 2rem;
-}
+    .contact-me-title-bottom {
+        margin-bottom: 2rem;
+    }
 
-/* Skills */
-.latest-work-title {
-    margin-top: 2rem;
-    clear: right;
-}
+    .page-footer {
+        background-image: url("/assets/images/butterfly-migration.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 2rem 4rem;
+        color: whitesmoke;
+    }
 
-.skills {
-    clear: right;
-    margin-top: 1rem;
-}
-
-.card-body-skills {
-    background-image: url("/images/butterfly-migration\ 2.jpeg");
-
-    opacity: 50%
-}
-
-#my-skills {
-    background: transparent;
-}
-
-.skills {
-    background-color: whitesmoke;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    height: 400px;
-}
-
-.skills-header {
-    text-align: left;
-    font-size: 20px;
-}
-
-.progress {
-    margin-top: 10px;
-    height:3px;
-}
-
-.progress-bar {
-    height: 3px;
-}
-
-/* .contact-form {
-    background-image: url("/assets/images/butterfly-migration.jpeg");
-    color: whitesmoke;
-    padding: 2rem;
-} */
-
-.card-deck-last {
-    margin-bottom: 3rem;
-}
-
-.card-footer {
-    background-color: #fdbe01;
-    color: whitesmoke;
-    text-align: center;
-}
-
-#repository-link {
-    color: whitesmoke
-}
-
-#repository-link:hover {
-    color: whitesmoke;
-    font-size: 16px;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.page-footer {
-    background-image: url("/assets/images/butterfly-migration.jpeg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 2rem 4rem;
-    color: whitesmoke;
-}
-
-.footer-link {
-    color: #110c06;
-}
-/* 
-https://kimmobrunfeldt.github.io/progressbar.js/ */
+    .footer-link {
+        color: #110c06;
+    }
