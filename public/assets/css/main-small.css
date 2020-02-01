@@ -1,3 +1,10 @@
+/* Main App Colors */
+    /* Orange (#fe7a13) */
+    /* Gold (#fdbe01) */
+    /* Text (whitesmoke)*/
+    /* Text (#110c06)*/
+    /* Text (Sienna #43160c) */
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -6,7 +13,6 @@ body {
 /* Navigation */
     .nav, .justify-content-center {
         background-color: #fe7a13;
-        /* font-family: 'Shadows Into Light', cursive; */
     }
 
     .nav-link {
@@ -35,7 +41,6 @@ body {
     }
 
     .name {
-        /* margin-top: -480px; */
         font-size: 36px;
         text-align: right;
     }
@@ -47,13 +52,28 @@ body {
         text-align: right;
         font-weight: 1000;
         margin-bottom: 1rem;
-        /* margin-right: 12rem; */
         padding-left: 0.5rem;
         text-align: justify;
     }
 
+    .latest-work-title, .skills-title {
+        color: #43160c;
+        font-size: 16px;
+        text-align: right;
+        font-weight: 1000;
+        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        text-align: left;
+    }
+
     #professional-bio-text{
         padding: 0 0.5rem;
+    }
+    
+    #profile-picture {
+        border-radius: 30%;
+        padding-bottom: 2rem;
+
     }
 
 .card {
@@ -161,5 +181,3 @@ h3 {
 .footer-link {
     color: black;
 }
-/* 
-https://kimmobrunfeldt.github.io/progressbar.js/ */
