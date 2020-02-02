@@ -6,8 +6,6 @@ const message = $("#message").val().trim()
 
 const sendMailAddress = "caitlanjeffrey@gmail.com"
 
-// var str = "mailto:" + sendMailAddress + "?subject=" + subject + "&body=" + message;
-
 var str = `mailto:${sendMailAddress}?&subject:${subject}?&body=${message}`
 
 $("#send-email-btn").on("click", function(event){

@@ -20,6 +20,10 @@ body {
         font-size: 24px;
     }
 
+    .nav-link:hover {
+        color: #43160c;
+    }
+
 /* Jumbotron */
     .jumbotron {
         background-image: url("../images/concrete.jpg");
@@ -75,6 +79,17 @@ body {
         padding: 1rem;
     }
 
+    .resume-logo {
+        height: 80px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin-top: -3rem; */
+    }
+
+    .download-resume {
+        text-align: center;
+    }
 
 .card {
     margin-top: 2rem;
@@ -204,6 +219,10 @@ body {
     }
 
 /* Footer */
+    .contact-me-part-2 {
+        opacity: 10;
+    }
+
     #send-email-btn {
     margin-top: 1rem;
     background-color: #110c06;
@@ -228,8 +247,22 @@ body {
         background-size: cover;
         padding: 2rem 4rem;
         color: whitesmoke;
+        font-weight: bolder;
+    }
+
+    .blockquote {
+        font-size: 12px;
+        color: whitesmoke;
     }
 
     .footer-link {
-        color: #110c06;
+        color: whitesmoke;
+        font-weight: bolder;
+    }
+
+    .footer-link:hover {
+        color: whitesmoke;
+        font-style: italic;
+        font-size: 20px;
+        text-decoration: none;
     }
