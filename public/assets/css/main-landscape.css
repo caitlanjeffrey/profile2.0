@@ -1,0 +1,495 @@
+
+/* Main App Colors */
+    /* Orange (#fe7a13) */
+    /* Gold (#fdbe01) */
+    /* Text (whitesmoke)*/
+    /* Text (#110c06)*/
+    /* Text (Sienna #43160c) */
+
+@media(orientation: portrait) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: #110c06;
+    }
+
+    /* Navigation */
+        .nav, .justify-content-center {
+            background-color: #fe7a13;
+        }
+
+        .nav-link {
+            color: whitesmoke;
+            font-size: 24px;
+        }
+
+    /* Jumbotron */
+        .jumbotron {
+            background-image: url("../images/concrete.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+        }
+
+        #logo {
+            height: 99%;
+            /* margin-top: 40px; */
+        }
+
+        .welcome-text {
+            font-size: 20px;
+            color: whitesmoke;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .name {
+            font-size: 36px;
+            text-align: right;
+            margin-top: -10rem;
+        }
+
+    /* Professional Bio */
+        .professional-bio-title {
+            color: #804b38;
+            font-size: 20px;
+            text-align: right;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            text-align: justify;
+        }
+
+        .latest-work-title, .skills-title {
+            color: #43160c;
+            font-size: 16px;
+            text-align: right;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            text-align: left;
+        }
+
+        #professional-bio-text{
+            padding: 0 0.5rem;
+        }
+        
+        #profile-picture {
+            border-radius: 30%;
+            padding-bottom: 2rem;
+        }
+
+        .resume-logo {
+            height: 80px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-top: -3rem; */
+        }
+
+        .download-resume {
+            text-align: center;
+        }
+
+    .card {
+        margin-top: 2rem;
+    }
+
+    .card-body-achievements {
+        background-color: whitesmoke;
+    }
+
+    .card-header-achievements {
+        font-weight: 800;
+        background-color: #fdbe01;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .card-header-history {
+        font-weight: 800;
+        background-color: #43160c;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .achievement-header {
+        color: #43160c;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .history-header {
+        color: #fe7a13;
+        font-weight: 900;
+        font-size: 26px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .achievement-header-subtext {
+        color: #110c06;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .achievement-description {
+        color: #110c06;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #more-projects-btn {
+        margin-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        background-color: #43160c;
+        border-color: #43160c;
+    }
+
+    /* Skills */
+        .latest-work-title {
+            margin-top: 2rem;
+            clear: right;
+        }
+
+        .skills {
+            clear: right;
+            margin-top: 1rem;
+        }
+
+        .card-body-skills {
+            background-image: url("/images/butterfly-migration\ 2.jpeg");
+
+            opacity: 50%
+        }
+
+        #my-skills {
+            background: transparent;
+        }
+
+        .skills {
+            background-color: whitesmoke;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            height: 400px;
+        }
+
+        .skills-header {
+            text-align: left;
+            font-size: 20px;
+        }
+
+        .progress {
+            margin-top: 10px;
+            height:3px;
+        }
+
+        .progress-bar {
+            height: 3px;
+        }
+
+    /* Project Page */
+        .card-deck-last {
+            margin-bottom: 3rem;
+        }
+
+        .card-footer {
+            background-color: #fdbe01;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        #repository-link {
+            color: whitesmoke
+        }
+
+        #repository-link:hover {
+            color: whitesmoke;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+    /* Footer */
+        #send-email-btn {
+        margin-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        background-color: #110c06;
+        border-color: #110c06;
+        }
+
+        .contact-me-title, .contact-me-title-bottom {
+            color: #43160c;
+            font-weight: 900;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 2rem;
+    }
+
+        .contact-me-title-bottom {
+            margin-bottom: 2rem;
+    }
+
+        .page-footer {
+            background-image: url("/assets/images/butterfly-migration.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 2rem 1rem;
+            color: whitesmoke;
+        }
+
+        .footer-link {
+            color: whitesmoke;
+        }
+}
+
+@media(orientation: landscape) {
+    body {
+        font-family: 'Open Sans', sans-serif;
+        color: #110c06;
+    }
+
+    /* Navigation */
+        .nav, .justify-content-center {
+            background-color: #fe7a13;
+        }
+
+        .nav-link {
+            color: whitesmoke;
+            font-size: 24px;
+        }
+
+    /* Jumbotron */
+        .jumbotron {
+            background-image: url("../images/concrete.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 350px;
+        }
+
+        #logo {
+            height: 90%;
+            margin-top: 40px;
+        }
+
+        .welcome-text {
+            font-size: 20px;
+            color: whitesmoke;
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .name {
+            font-size: 36px;
+            text-align: right;
+            margin-top: -10rem;
+        }
+
+    /* Professional Bio */
+        .professional-bio-title {
+            color: #804b38;
+            font-size: 20px;
+            text-align: right;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            text-align: justify;
+        }
+
+        .latest-work-title, .skills-title {
+            color: #43160c;
+            font-size: 16px;
+            text-align: right;
+            font-weight: 1000;
+            margin-bottom: 1rem;
+            padding-left: 0.5rem;
+            text-align: left;
+        }
+
+        #professional-bio-text{
+            padding: 0 0.5rem;
+        }
+        
+        #profile-picture {
+            border-radius: 30%;
+            padding-bottom: 2rem;
+        }
+
+        .resume-logo {
+            height: 80px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            /* margin-top: -3rem; */
+        }
+
+        .download-resume {
+            text-align: center;
+        }
+
+    .card {
+        margin-top: 2rem;
+    }
+
+    .card-body-achievements {
+        background-color: whitesmoke;
+    }
+
+    .card-header-achievements {
+        font-weight: 800;
+        background-color: #fdbe01;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .card-header-history {
+        font-weight: 800;
+        background-color: #43160c;
+        color: whitesmoke;
+        text-align: center;
+    }
+
+    .card-text {
+        text-align: center;
+    }
+
+    .achievement-header {
+        color: #43160c;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .history-header {
+        color: #fe7a13;
+        font-weight: 900;
+        font-size: 26px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .achievement-header-subtext {
+        color: #110c06;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .achievement-description {
+        color: #110c06;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #more-projects-btn {
+        margin-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        background-color: #43160c;
+        border-color: #43160c;
+    }
+
+    /* Skills */
+        .latest-work-title {
+            margin-top: 2rem;
+            clear: right;
+        }
+
+        .skills {
+            clear: right;
+            margin-top: 1rem;
+        }
+
+        .card-body-skills {
+            background-image: url("/images/butterfly-migration\ 2.jpeg");
+
+            opacity: 50%
+        }
+
+        #my-skills {
+            background: transparent;
+        }
+
+        .skills {
+            background-color: whitesmoke;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            height: 400px;
+        }
+
+        .skills-header {
+            text-align: left;
+            font-size: 20px;
+        }
+
+        .progress {
+            margin-top: 10px;
+            height:3px;
+        }
+
+        .progress-bar {
+            height: 3px;
+        }
+
+    /* Project Page */
+        .card-deck-last {
+            margin-bottom: 3rem;
+        }
+
+        .card-footer {
+            background-color: #fdbe01;
+            color: whitesmoke;
+            text-align: center;
+        }
+
+        #repository-link {
+            color: whitesmoke
+        }
+
+        #repository-link:hover {
+            color: whitesmoke;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+    /* Footer */
+        #send-email-btn {
+        margin-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        background-color: #110c06;
+        border-color: #110c06;
+        }
+
+        .contact-me-title, .contact-me-title-bottom {
+            color: #43160c;
+            font-weight: 900;
+            font-size: 36px;
+            text-align: center;
+            margin-top: 2rem;
+    }
+
+        .contact-me-title-bottom {
+            margin-bottom: 2rem;
+    }
+
+        .page-footer {
+            background-image: url("/assets/images/butterfly-migration.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            padding: 2rem 1rem;
+            color: whitesmoke;
+        }
+
+        .footer-link {
+            color: whitesmoke;
+        }
+}
