@@ -6,6 +6,7 @@
     /* Text (#110c06)*/
     /* Text (Sienna #43160c) */
 
+
 body {
     font-family: 'Open Sans', sans-serif;
     color: #110c06;
@@ -21,9 +22,17 @@ body {
         font-size: 24px;
     }
 
-    .nav-link:hover {
-        color: #43160c;
-    }
+        .nav-link:focus {
+            color: #43160c;
+        }
+
+        .nav-link:hover {
+            color: #43160c;
+        }
+
+        .nav-link:active {
+            color: #fdbe01;
+        }
 
 /* Jumbotron */
     .jumbotron {
@@ -212,22 +221,38 @@ body {
         color: whitesmoke
     }
 
-    #repository-link:hover {
-        color: whitesmoke;
-        font-size: 16px;
-        font-weight: bold;
-        text-decoration: none;
-    }
+        #repository-link:focus {
+            color: #43160c;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+        
+        #repository-link:hover {
+            color: whitesmoke;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        #repository-link:active {
+            color: #43160c;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+        }
 
 /* Footer */
-    .contact-me-part-2 {
-        opacity: 10;
-    }
 
     #send-email-btn {
-    margin-top: 1rem;
-    background-color: #110c06;
-    border-color: #110c06;
+        margin-bottom: 1rem;
+        display: flex;
+        text-align: center;
+        background-color: #110c06;
+        border-color: #110c06;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .contact-me-title, .contact-me-title-bottom {
@@ -243,7 +268,7 @@ body {
     }
 
     .page-footer {
-        background-image: url("/assets/images/butterfly-migration.jpeg");
+        background-image: url("/assets/images/butterfly_migration.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         padding: 2rem 4rem;

@@ -13,14 +13,25 @@
     }
 
     /* Navigation */
-        .nav, .justify-content-center {
-            background-color: #fe7a13;
-        }
-
+    .nav, .justify-content-center {
+        background-color: #fe7a13;
+    }
         .nav-link {
             color: whitesmoke;
             font-size: 24px;
         }
+
+            .nav-link:focus {
+                color: #43160c;
+            }
+
+            .nav-link:hover {
+                color: #43160c;
+            }
+
+            .nav-link:active {
+                color: #fdbe01;
+            }
 
     /* Jumbotron */
         .jumbotron {
@@ -163,12 +174,6 @@
             margin-top: 1rem;
         }
 
-        .card-body-skills {
-            background-image: url("/images/butterfly-migration\ 2.jpeg");
-
-            opacity: 50%
-        }
-
         #my-skills {
             background: transparent;
         }
@@ -209,20 +214,37 @@
             color: whitesmoke
         }
 
-        #repository-link:hover {
-            color: whitesmoke;
-            font-size: 16px;
-            font-weight: bold;
-            text-decoration: none;
-        }
+            #repository-link:focus {
+                color: #43160c;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            
+            #repository-link:hover {
+                color: whitesmoke;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #repository-link:active {
+                color: #43160c;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
 
     /* Footer */
         #send-email-btn {
-        margin-bottom: 1rem;
-        display: flex;
-        text-align: center;
-        background-color: #110c06;
-        border-color: #110c06;
+            margin-bottom: 1rem;
+            display: flex;
+            text-align: center;
+            background-color: #110c06;
+            border-color: #110c06;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .contact-me-title, .contact-me-title-bottom {
@@ -231,14 +253,18 @@
             font-size: 36px;
             text-align: center;
             margin-top: 2rem;
-    }
+        }
 
         .contact-me-title-bottom {
             margin-bottom: 2rem;
-    }
+        }
+
+        .blockquote {
+            font-size: 12px;
+        }
 
         .page-footer {
-            background-image: url("/assets/images/butterfly-migration.jpeg");
+            background-image: url("/assets/images/butterfly_migration.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             padding: 2rem 1rem;
@@ -257,14 +283,25 @@
     }
 
     /* Navigation */
-        .nav, .justify-content-center {
-            background-color: #fe7a13;
-        }
-
+    .nav, .justify-content-center {
+        background-color: #fe7a13;
+    }
         .nav-link {
             color: whitesmoke;
             font-size: 24px;
         }
+
+            .nav-link:focus {
+                color: #43160c;
+            }
+
+            .nav-link:hover {
+                color: #43160c;
+            }
+
+            .nav-link:active {
+                color: #fdbe01;
+            }
 
     /* Jumbotron */
         .jumbotron {
@@ -453,20 +490,37 @@
             color: whitesmoke
         }
 
-        #repository-link:hover {
-            color: whitesmoke;
-            font-size: 16px;
-            font-weight: bold;
-            text-decoration: none;
-        }
+            #repository-link:focus {
+                color: #43160c;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            
+            #repository-link:hover {
+                color: whitesmoke;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #repository-link:active {
+                color: #43160c;
+                font-size: 16px;
+                font-weight: bold;
+                text-decoration: none;
+            }
 
     /* Footer */
         #send-email-btn {
-        margin-bottom: 1rem;
-        display: flex;
-        text-align: center;
-        background-color: #110c06;
-        border-color: #110c06;
+            margin-bottom: 1rem;
+            display: flex;
+            text-align: center;
+            background-color: #110c06;
+            border-color: #110c06;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .contact-me-title, .contact-me-title-bottom {
@@ -475,14 +529,18 @@
             font-size: 36px;
             text-align: center;
             margin-top: 2rem;
-    }
+        }
 
         .contact-me-title-bottom {
             margin-bottom: 2rem;
-    }
+        }
+
+        .blockquote {
+            font-size: 12px;
+        }
 
         .page-footer {
-            background-image: url("/assets/images/butterfly-migration.jpeg");
+            background-image: url("/assets/images/butterfly_migration.jpg");
             background-repeat: no-repeat;
             background-size: cover;
             padding: 2rem 1rem;
