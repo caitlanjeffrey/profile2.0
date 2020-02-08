@@ -69,6 +69,17 @@ body {
         text-align: right;
     }
 
+    .development-projects-title {
+        color: #43160c;
+        font-size: 20px;
+        text-align: right;
+        font-weight: 1000;
+        margin-top: 20px;
+        margin-bottom: 1rem;
+        padding-left: 0.5rem;
+        text-align: right;
+    }
+
     .latest-work-title, .skills-title {
         color: #43160c;
         font-size: 20px;
@@ -279,6 +290,11 @@ body {
     .blockquote {
         font-size: 12px;
         color: whitesmoke;
+    }
+
+    .contact-me-part-1 {
+        background-color:#5cacf1;
+        padding: 1rem;
     }
 
     .footer-link {

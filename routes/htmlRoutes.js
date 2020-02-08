@@ -27,7 +27,4 @@ module.exports = function (app) {
         res.render('projects', { layout: 'main', template: 'projects' })
     });
 
-    app.get("/gallery", function (req, res) {
-        res.render('gallery', { layout: 'main', template: 'gallery' })
-    });
 };
